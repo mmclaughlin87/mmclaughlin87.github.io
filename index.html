@@ -4,42 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Matt McLaughlin Bio</title>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Matt McLaughlin</title>
 </head>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                Matt McLaughlin
+            </a>
+        </div>
+    </div>
+</nav>
+
 <body>
-    <h1>Matt McLaughlin</h1>
-    <img src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAcFAAAAJDc4MjFiZmJhLWUzMGEtNGE1Ny05MDBmLTcyN2U3MWJiN2FmMg.jpg" alt="Matt McLaughlin">
-    <p>
-        Matt McLaughlin is a person who you are reading about on this page.<br>
-        <a href="about.html">About</a>
-    </p>
-    <p>
-        Here is an additional paragraph describing Matt in further detail.
-    </p>
-    <ul>
-        <li><a href="">LinkedIn</a></li>
-        <li><a href="mailto:mamclaughlin87@gmail.com">Email</a></li>
-        <li><a href="">Twitter</a></li>
-    </ul>
-    <table border="1">
-        <tr>
-            <th colspan="3">Favorites</th>
-        </tr>
-        <tr>
-            <th>Item</th>
-            <th>Title</th>
-            <th>Year</th>
-        </tr>
-        <tr>
-            <td>Movie</td>
-            <td>Shaun of the Dead</td>
-            <td>2004</td>
-        </tr>
-        <tr>
-            <td>Show</td>
-            <td>The Office</td>
-            <td>2005</td>
-        </tr>
-    </table>
+    <div class="row">
+        <div class="col-md-4 bio">
+            <section>
+                <img src="assets/bio-img.jpg" alt="Matt McLaughlin Profile Pic" class="img-responsive bio-img">
+                <p class="centered" id="bio-p">
+                    blah blah blah this is some information about matt. it is his whole entire life summarized in one paragraph! Wahoo yippity yay!
+                </p>
+                <p id="bio-links">
+                    <a href="#">Contact</a> | <a href="#">Projects</a> | <a href="#">Something Fun</a>
+                </p>
+            </section>
+        </div>
+        <div class="col-md-8">
+            <section>
+                <div class="thumbnail project">
+                    <img src="assets/weather_by_latitude.png" alt="Weather By Latitude">
+                    <div class="caption">
+                        <h3>Weather By Latitude</h3>
+                    </div>
+                </div>
+                <div class="thumbnail project">
+                    <img src="assets/weather_by_latitude.png" alt="Weather By Latitude">
+                    <div class="caption">
+                        <h3>Weather By Latitude</h3>
+                    </div>
+                </div>
+                <div class="thumbnail project">
+                    <img src="assets/weather_by_latitude.png" alt="Weather By Latitude">
+                    <div class="caption">
+                        <h3>Weather By Latitude</h3>
+                    </div>
+                </div>
+                <div class="thumbnail project">
+                    <img src="assets/weather_by_latitude.png" alt="Weather By Latitude">
+                    <div class="caption">
+                        <h3>Weather By Latitude</h3>
+                    </div>
+                </div>
+                <div class="thumbnail project">
+                    <img src="assets/weather_by_latitude.png" alt="Weather By Latitude">
+                    <div class="caption">
+                        <h3>Weather By Latitude</h3>
+                    </div>
+                </div>
+                <div class="thumbnail project">
+                    <img src="assets/weather_by_latitude.png" alt="Weather By Latitude">
+                    <div class="caption">
+                        <h3>Weather By Latitude</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 </body>
+
+<nav class="navbar navbar-default navbar-static-bottom footer">
+        <div class="container"></div>
+    </nav>
+
 </html>
