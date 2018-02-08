@@ -45,8 +45,9 @@ h3 {
     background: rgb(54, 51, 51);
 }
 #icon-links {
-    width: 850px;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .icon {
     padding: 8px;
