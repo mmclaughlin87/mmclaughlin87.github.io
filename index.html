@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,15 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Matt McLaughlin</title>
@@ -35,7 +39,9 @@
             <section>
                 <img src="assets/bio-img.jpg" alt="Matt McLaughlin Profile Pic" class="img-responsive bio-img">
                 <p class="centered" id="bio-p">
-                    An Engineer and Data Professional, who loves the excitement and insight found when digging into data and the beauty and clarity of data visualizations. Please feel free to reach out and get in touch!
+                    An Engineer and Data Professional, excited by the insight found when exploring data and the beauty and clarity
+                    interactive data visualizations provide on topics from social media, to finance, to sports. Please feel free 
+                    to reach out and get in touch!
                 </p>
                 <!-- <p id="bio-links">
                     <a href="#">Contact</a> | <a href="#">Projects</a> | <a href="#">Something</a>
@@ -45,77 +51,115 @@
         <section>
             <div class="col-md-3">
                 <a href="https://mmclaughlin87.github.io/weather-by-latitude-visualization/">
-                    <div class="thumbnail project">
+                    <div class="thumbnail project" onmouseover="expand(this)" onmouseout="hide(this)">
                         <img src="assets/weather_by_latitude.png" alt="Weather By Latitude">
                         <div class="caption">
                             <h3>Weather By Latitude</h3>
                         </div>
                         <div class="project-description">
-                            A study of weather patterns.
+                            <hr> 
+                            A study of weather patterns by latitude, utilizing API calls to OpenWeatherMap to gather data on a random assortment of locations
+                            around the globe. Patterns and visualizations are presented via a responsive webpage.
                         </div>
                     </div>
                 </a>
-                <a href="https://world-refugee-crisis.herokuapp.com/">  
-                    <div class="thumbnail project">
+                <a href="https://world-refugee-crisis.herokuapp.com/">
+                    <div class="thumbnail project" onmouseover="expand(this)" onmouseout="hide(this)">
                         <img src="assets/refugee-crisis.png" alt="Refugee Crisis">
                         <div class="caption">
                             <h3>World Refugee Migration</h3>
                         </div>
+                        <div class="project-description">
+                            <hr>
+                            A study of world refugee migration from 1990-2016. The primary visualizations is an interactive, time-based map showing 
+                            patterns in battle-related death, fleeing refugees, and asylum seekers for each country over time. Additionally, you can 
+                            select a country to display it's summary statistics.
+                        </div>
                     </div>
                 </a>
-                <a href="https://belly-button-microbiology.herokuapp.com/">  
-                    <div class="thumbnail project">
+                <a href="https://belly-button-microbiology.herokuapp.com/">
+                    <div class="thumbnail project" onmouseover="expand(this)" onmouseout="hide(this)">
                         <img src="assets/belly-button-biodiversity.png" alt="Belly Button Biodiversity">
                         <div class="caption">
                             <h3>Belly Button Biodiversity</h3>
+                        </div>
+                        <div class="project-description">
+                            <hr> 
+                            An exploration of an unusual dataset on the diversity of micro-organisms sampled from study participants' belly buttons.
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-md-3">
                 <a href="https://github.com/mmclaughlin87/news-tweets-sentiment-analysis">
-                    <div class="thumbnail project">
+                    <div class="thumbnail project" onmouseover="expand(this)" onmouseout="hide(this)">
                         <img src="assets/news-tweets.png" alt="News Tweets">
                         <div class="caption">
                             <h3>News Tweet Sentiment</h3>
                         </div>
+                        <div class="project-description">
+                            <hr> 
+                            A sentiment analysis of major news outlets' most recent tweets. Visualizations explore the sentiment of each
+                            individual tweet, as well as the average sentiment of each outlet. Data gathered from Twitter's API.
+                        </div>
                     </div>
                 </a>
-                <a href="https://github.com/mmclaughlin87/march-madness-historical-perfomance">  
-                    <div class="thumbnail project">
+                <a href="https://github.com/mmclaughlin87/march-madness-historical-perfomance">
+                    <div class="thumbnail project" onmouseover="expand(this)" onmouseout="hide(this)">
                         <img src="assets/march-madness.png" alt="March Madness">
                         <div class="caption">
                             <h3>March Madness By Seed</h3>
                         </div>
+                        <div class="project-description">
+                            <hr> 
+                            A study of NCAA Basketball Tournament results according to seed. visualizations explore typical seed performance, average expected
+                            results, liklihood of upsets, and teams that have historical overperformed or underperformed expectations.
+                        </div>
                     </div>
                 </a>
-                <a href="https://github.com/mmclaughlin87/mission-to-mars">  
-                    <div class="thumbnail project">
+                <a href="https://github.com/mmclaughlin87/mission-to-mars">
+                    <div class="thumbnail project" onmouseover="expand(this)" onmouseout="hide(this)">
                         <img src="assets/mars-data-scraping.png" alt="Mars Data Scraping">
                         <div class="caption">
                             <h3>Mars Data Scraping</h3>
+                        </div>
+                        <div class="project-description">
+                            <hr> 
+                            A webpage of images and information on Mars, delivered via datascraping of prominent Mars-specific and general 
+                            space exploration related agencies and authorities.
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="https://mmclaughlin87.github.io/recent-earthquakes/">  
-                    <div class="thumbnail project">
+                <a href="https://mmclaughlin87.github.io/recent-earthquakes/">
+                    <div class="thumbnail project" onmouseover="expand(this)" onmouseout="hide(this)">
                         <img src="assets/recent-earthquakes.png" alt="Recent Earthquakes">
                         <div class="caption">
                             <h3>Last Week's Earthquakes</h3>
                         </div>
+                        <div class="project-description">
+                            <hr> 
+                            An interactive visualization of world-wide earthquakes that have occurred within the last week. Data is sourced
+                            from the US Geological Services API and an interactive map displays recent earthquakes with visual indications
+                            of magnitude.
+                        </div>
                     </div>
                 </a>
                 <a href="https://mmclaughlin87.github.io/ufo-sightings/">
-                    <div class="thumbnail project">
+                    <div class="thumbnail project" onmouseover="expand(this)" onmouseout="hide(this)">
                         <img src="assets/ufo-sightings.png" alt="UFO Sightings">
                         <div class="caption">
                             <h3>Reported UFO Sightings</h3>
                         </div>
+                        <div class="project-description">
+                            <hr> 
+                            A sortable table and interactive visualization of self-reported UFO sightings to the National UFO Reporting center
+                            (NUFORC). Data includes over 20,000 reported sightings from 2010-2014                            
+                        </div>
                     </div>
                 </a>
-            </section>
+        </section>
         </div>
     </div>
 </body>
@@ -139,5 +183,17 @@
         </div>
     </div>
 </nav>
+
+<script>
+    function expand(panel) {
+        var description = panel.getElementsByClassName("project-description")[0]
+        description.style.display = "block"
+    }
+    function hide(panel) {
+        var description = panel.getElementsByClassName("project-description")[0]
+        description.style.display = "none"
+    }
+
+</script>
 
 </html>
